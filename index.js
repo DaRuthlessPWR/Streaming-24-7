@@ -25,26 +25,26 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1079010612769722508')
     .setType('STREAMING')
-    .setURL('https://www.twitch.tv/spinninrecords') //Must be a youtube video link 
-    .setState('Patkhet')
-    .setName('Discord Community')
+    .setURL('https://www.twitch.tv/nocopyrightsounds') //Must be a youtube video link 
+    .setState('The Ultimate Masterpiece of the White Room‌')
+    .setName('Kiyotaka Ayanokōji')
     .setDetails(`THE NAME IT SHOWS YOUR STREAMING [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/869609600842858526/1200857586392641658/lucifer.gif') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('𝕷𝖚𝖈𝖎𝖋𝖊𝖗') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/964235721630154812/1135216057339097159/verify.gif') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/868886105473298432/1201467592636899419/20240129_160232.gif') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('Kiyotaka Ayanokōji') //Text when you hover the Large image
+    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1102093230906023946/1135219284071698562/HB_VerifyWhite.gif') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Verify') //Text when you hover the Small image
-    .addButton('Discord Server', 'https://discord.gg/bXDnGvWu8E')
+    .addButton('Discord Server', 'https://discord.gg/PBED6yEXpT')
     .addButton('Facebook Page', 'https://facebook.com/patkhet.lol');
 
   client.user.setActivity(r);
-  client.user.setPresence({ status: "online" }); //dnd, online, idle, offline
+  client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
 
   let prevTime = null;
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `◟́◞̀ ⟢ 𝕷ucifer ! ♡`;
+      const newDetails = `ℭ𝔩𝔞𝔰𝔰𝔯𝔬𝔬𝔪 𝔬𝔣 𝔱𝔥𝔢 𝔈𝔩𝔦𝔱𝔢`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
