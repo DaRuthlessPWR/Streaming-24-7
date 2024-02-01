@@ -28,14 +28,14 @@ client.on('ready', async () => {
     .setURL('https://twitch.tv/dapwr') //Must be a youtube video link 
     .setState('The Game Of Life')
     .setName('mrnekrozyt')
-    .setDetails(`♠♠♠ [${formatTime()}]`)
+    .setDetails(`♠♠♠ .gg/grapes [${formatTime()}]`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/968309668600496198/988828316968562728/36DB555A-F589-42EB-B43F-EC3A46D1E5CE.gif?ex=655ccd22&is=654a5822&hm=ad572076d7ca6408559923f44de548d9f3a8801496afbd9e877e48b1cf7276b4&=') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('DM TO GET ON') //Text when you hover the Large image
     .setAssetsSmallImage('https://media.discordapp.net/attachments/1161404154669969501/1172745935751741540/ruthlessskullpfp.jpg?ex=65616fc3&is=654efac3&hm=a396d0c8319ad8d82fd5300427cb2c0567f54b05b2856cb3c517812ec38d45d9&=&width=418&height=450') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('.gg/grapes') //Text when you hover the Small image
-    .addButton('Who Is Ruthless?', 'https://guns.lol/ruthless')
-    .addButton('.gg/GRAPES', 'https://discord.gg/grapes');
+    .addButton('Who Is Ruthless?', 'http://ruthless.my.id')
+    .addButton('#1 SOCIAL MEDIA BOOST', 'https://boostedsoulz.com');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
