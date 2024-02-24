@@ -35,7 +35,7 @@ client.on('ready', async () => {
     .setAssetsSmallImage('https://media.discordapp.net/attachments/1175370961122500618/1211061055481061407/2pfpruthless.jpg?ex=65ecd380&is=65da5e80&hm=cc1db7ab44b4ed2e7e390f76557dbbf767c5884caee310ee58b2a7694b77b4cf&=&format=webp&width=411&height=442') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('.gg/grapes') //Text when you hover the Small image
     .addButton('Who Is Ruthless?', 'http://ruthless.my.id')
-    .addButton('#1 NITRO/BOOST SALES', 'discord.gg/graes');
+    .addButton('#1 NITRO/BOOST SALES', 'https://discord.gg/grapes');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
