@@ -30,12 +30,12 @@ client.on('ready', async () => {
     .setName('mrnekrozyt')
     .setDetails(`♠♠♠ .gg/grapes [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/968309668600496198/988828316968562728/36DB555A-F589-42EB-B43F-EC3A46D1E5CE.gif?ex=655ccd22&is=654a5822&hm=ad572076d7ca6408559923f44de548d9f3a8801496afbd9e877e48b1cf7276b4&=') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1175370961122500618/1211061126062940171/cashmoneybandzruthless.gif?ex=65ecd390&is=65da5e90&hm=131cfc372f2c3862ab5e3e719004c0c555acac468383d0e0261486e7e4454c71&=') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('DM TO GET ON') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1161404154669969501/1172745935751741540/ruthlessskullpfp.jpg?ex=65616fc3&is=654efac3&hm=a396d0c8319ad8d82fd5300427cb2c0567f54b05b2856cb3c517812ec38d45d9&=&width=418&height=450') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1175370961122500618/1211061055481061407/2pfpruthless.jpg?ex=65ecd380&is=65da5e80&hm=cc1db7ab44b4ed2e7e390f76557dbbf767c5884caee310ee58b2a7694b77b4cf&=&format=webp&width=411&height=442') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('.gg/grapes') //Text when you hover the Small image
     .addButton('Who Is Ruthless?', 'http://ruthless.my.id')
-    .addButton('#1 SOCIAL MEDIA BOOST', 'https://boostedsoulz.com');
+    .addButton('#1 NITRO/BOOST SALES', 'discord.gg/graes');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
